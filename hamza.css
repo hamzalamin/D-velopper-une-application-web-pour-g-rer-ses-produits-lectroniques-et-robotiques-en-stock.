@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.mx{
+    display: flex;
+    margin-left: 650px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
