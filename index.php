@@ -15,19 +15,25 @@
 <body class="">
   
  <div >
-  <div style="margin-left: 23%; margin-top: 200px" class="bg-black  p-2 w-50 d-flex justify-content-center text-white fs-3 text-light ">LOG IN</div>
-  <form  method="POST" style="margin-left:23%;" class="w-50  p-4 text-light">
-    <div class="form-group mb-3 w-75  mx-5">
+ <div style="margin-left: 23%; margin-top: 200px" class="bg-white p-2 w-50 d-flex justify-content-center text-dark fs-3">LOG IN</div>
+
+  <form   method="POST" style="margin-left:23%;" class="w-50  p-4 text-light">
+  <video class="form" width="640" height="360" controls>
+    <source src="vedio.mp4" type="video/mp4">
+</video>
+<div class="jock">
+    <div class="   ">
       <label for="identifient">ID</label>
       <input type="number" name="userid" class="form-control" id="name"   placeholder="enter username">
       
     </div>
-    <div class="form-group mb-3 w-75 mx-5">
+    <div class="">
       <label for="password">Password</label>
       <input type="password" name="password" class="form-control" id="password" placeholder="Password">
     </div>
    
-    <button type="submit" class="btn btn-light mx-5">Log In</button>
+    <button type="submit" class="">Log In</button>
+    </div>
   </form>
 
  </div >
@@ -72,9 +78,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 // Close the MySQL connection
 $connection->close();
 ?>
-
-
-
 
 
 </body>
